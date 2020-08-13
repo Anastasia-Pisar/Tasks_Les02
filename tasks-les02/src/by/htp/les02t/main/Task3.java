@@ -4,24 +4,21 @@ public class Task3 {
 	
 	public static void main(String[] args) {
 		
-		int A;
-        double K;
-        double M;
-        double G;
-        double T;
-   
-        A = 1024;
+        double A;
+		
+        A = 900.0; // Рђ РІ Р±Р°Р№С‚Р°С…
+		System.out.println("A = " + A + " Р‘Р°Р№С‚" );
         
-        K = A / 1024;
-        M = K / 1024;
-        G = M / 1024;
-        T = G / 1024;
+        A = A / 1024.0; // Рђ РІ РєРёР»РѕР±Р°Р№С‚Р°С…
+		System.out.println("A = " + A + " РљР‘Р°Р№С‚" );
         
-        System.out.println("Объем информации в килобайтах = " + K);
-        System.out.println("Объем информации в мегабайтах = " + M);
-        System.out.println("Объем информации в гигабайтах = " + G);
-        System.out.println("Объем информации в тераабайтах = " + T);   
+        A = A / 1024.0; // A РІ РјРµРіР°Р±Р°Р№С‚Р°С…
+		System.out.println("A = " + A + " MР‘Р°Р№С‚" );
         
+        A = A / 1024.0; // Рђ РІ РіРёРіР°Р±Р°Р№С‚Р°С…
+		System.out.println("A = " + A + " Р“Р‘Р°Р№С‚" );
+        
+        A = A / 1024.0; // Рђ РІ С‚РµСЂР°Р±Р°Р№С‚Р°С…
+		System.out.println("A = " + A + " РўР‘Р°Р№С‚" );
 	}
-
 }
