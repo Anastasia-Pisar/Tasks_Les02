@@ -14,12 +14,12 @@ public class Task8 {
 		if (((x <= a && y <= b) || (y <= a && x <= b))
 		 || ((x <= a && z <= b) || (z <= a && x <= b))
 		 || ((y <= a && z <= b) || (z <= a && y <= b))) {
-			System.out.println("Êèğïè÷ ïğîéäåò");
-		}
-		else {
-			System.out.println("Êèğïè÷ íå ïğîéäåò");			
-		}
 			
+			System.out.println("ĞšĞ¸Ñ€Ğ¿Ğ¸Ñ‡ Ğ¿Ñ€Ğ¾Ğ¹Ğ´ĞµÑ‚");
+		
+		} else {
+			
+			System.out.println("ĞšĞ¸Ñ€Ğ¿Ğ¸Ñ‡ Ğ½Ğµ Ğ¿Ñ€Ğ¾Ğ¹Ğ´ĞµÑ‚");			
+		}	
 	}
-
 }
