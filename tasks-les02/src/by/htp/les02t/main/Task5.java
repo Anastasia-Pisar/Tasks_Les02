@@ -11,12 +11,18 @@ public class Task5 {
 		b = 5;
 		
 		if(a > b) {
-			System.out.println("Число a большее");
-		} 
-		else {
 			
-	    if(a < b)	
-			System.out.println("Число b большее или равно");	
+			System.out.println("Р§РёСЃР»Рѕ b РЅР°РёРјРµРЅСЊС€РµРµ");
+			
+		} else {
+			
+			if(a < b) {
+				System.out.println("Р§РёСЃР»Рѕ Р° РЅР°РёРјРµРЅСЊС€РµРµ");
+				
+			} else {
+
+				System.out.println("Р§РёСЃР»Р° СЂР°РІРЅС‹");
+			}
 		}	
 	}
 }
