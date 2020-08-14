@@ -6,7 +6,7 @@ public class Task13 {
 	
 	public static void main(String[] args) {
 		
-		System.out.print("Введите любое целое положительное число: ");
+		System.out.print("Р’РІРµРґРёС‚Рµ Р»СЋР±РѕРµ С†РµР»РѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
 		
 		Scanner sc = new Scanner(System.in); 
 		
@@ -14,9 +14,9 @@ public class Task13 {
 		int sum = 0;
 		
 		for (int i=1; i<= n; i++){
+			
 			sum = sum + i;
 		}
-		
 		System.out.println (sum);
 	}
 }
