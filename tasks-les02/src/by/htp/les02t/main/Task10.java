@@ -9,11 +9,8 @@ public class Task10 {
 		while (i <= 100) {
 			
 			System.out.print(i + ", " );
-		i = i + 2;
-		
-		
+			
+			i = i + 2;
 		}
-		
 	}
-
 }
