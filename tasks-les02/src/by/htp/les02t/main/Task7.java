@@ -10,14 +10,17 @@ public class Task7 {
 		int d = 0;
 		
 		if (a < 0) {
+			
 			d = d + 1;
 		}
 		if (b < 0) {
+			
 			d = d + 1;
 		}
 		if (c < 0) {
+			
 			d = d + 1;
-		System.out.println(d);
 		}
+		System.out.println(d);
 	}
 }
