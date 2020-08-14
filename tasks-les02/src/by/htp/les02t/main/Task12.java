@@ -8,15 +8,11 @@ public class Task12 {
 		int b = 127;
 		
 		for (int x = a; x <= b; x++) {
+			
 			char ch;
 			ch = (char)x;
 			
 			System.out.println( x + " - " + ch);
 		}
-		    
-		
-		
 	}
-	
-
 }
