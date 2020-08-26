@@ -1,29 +1,19 @@
 package by.htp.les02t.main;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
 public class Task15 {
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-        int a = Integer.parseInt(reader.readLine());
-        int b = Integer.parseInt(reader.readLine());
-        System.out.println(gcd(a, b));
+		int a = 16;
+		int b = 12;
+		int c;
 		
+		while (a % b != 0) {
+			
+			c = a % b;
+			a = b;
+			b = c;
+		}
+		System.out.println("НОД = " + b);	
 	}
-	public static int gcd(int a,int b) {
-		
-		while (a != b) {
-            if (a > b) {
-                a = a - b;
-            } else {
-                b = b - a;
-            }
-        }
-        return a;
-	}
-	
 }
